@@ -8,7 +8,7 @@ You will find the agents in 'agents.txt' file.
 Open 'index.php' to show all user agents.
 ## Config
 You can change Mobile or Desktop results ```deviceCategory: 'mobile'```
-You can Change Th number of results too.
+You can Change The number of results too.
 ```
 function defaultTask(cb) {
    const userAgent = new UserAgent({ deviceCategory: 'mobile' });
